@@ -6,10 +6,15 @@ body{
     background-color: #E8F0F7;
 
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #Mainhead{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 .choices{
     display: flex;
@@ -42,6 +47,47 @@ body{
     transform: rotate(-90deg);
 }
 .scoreboard{
+    height: 100px;
+    width:400px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0EBF8;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px grey;
+    margin: 50px;
+}
+.userscore{
+    height: 80px;
+    width: 80px;
+    background-color: #FAF7F2;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.compscore{
+    height: 80px;
+    width: 80px;
+    background-color: #FAF7F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 1px grey;
+}
+.winnerboard{
+    height: 80px;
+    width:400px;
+    background-color: #f2e2c4;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 1px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
