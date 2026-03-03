@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #E8F0F7;
+
+}
+#Mainhead{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 150px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+}
+.choice{
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+#rock{
+    background-image: url(rock.png) ;
+    background-size: cover;
+}
+#rock:hover{
+    transform: rotate(-90deg);
+}
+#paper{
+    background-image: url(paper.png) ;
+    background-size: cover;  
+}
+#paper:hover{
+    transform: rotate(-90deg);
+}
+#scissors{
+    background-image: url(scissors.png) ;
+    background-size: cover;
+}
+#scissors:hover{
+    transform: rotate(-90deg);
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+}
